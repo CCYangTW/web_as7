@@ -1,0 +1,62 @@
+@import 'animate.css';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font: 400 15px;
+    line-height: 1.8;
+    color: #333333;
+    background-color: #FFFCEC;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFCEC;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #FFFCEC;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 1.375em;
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jumbotron {
+    background-image: url(https://lh3.googleusercontent.com/Hzqn9wlKYhAH0om--OGYyHoP22liznE468RqFwR4KajydkCb7TPYi1kuRyIcCg3AVuR-1Vh-mv-JVltKIdCnra5pXP_F6QeNPH3u6rNJDm3DGxiaN_WGw8XUWC8uo6IEXKVfUz2RhA=w2400);
+    color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: -15% 15%;
+    margin-bottom: 0px;
+    padding: 200px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  }
