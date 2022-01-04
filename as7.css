@@ -1,16 +1,18 @@
 @import 'animate.css';
 
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font: 400 15px;
-    line-height: 1.8;
-    color: #333333;
-    background-color: #FFFCEC;
+    line-height: 1;
+    color: #774f38;
+    display: grid;
+    background-color: #ffffff;
 }
 
 h1 {
     font-family: 'Permanent Marker', cursive;
-    font-size: 24px;
+    font-size: 60px;
     text-transform: uppercase;
     color: #FFFCEC;
     font-weight: 900;
@@ -18,15 +20,15 @@ h1 {
 }
 
 h2 {
-    font-family: 'Merriweather', serif;
-    font-size: 24px;
-    color: #333333;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color: #774f38;
     font-weight: 600;
     margin-bottom: 30px;
 }
 
 h3 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     color: #FFFCEC;
     font-weight: 400;
@@ -59,4 +61,78 @@ h4 {
     padding: 200px 100px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-  }
+}
+
+/*div*/
+.bg1 {
+    background: radial-gradient(#f9cdad 20%, #fff 20%);
+    background-size: 10px 10px;
+    animation: bscale 10s infinite linear;
+}
+
+#beginning, #cupid, #hunt, #rumor {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#beginning {
+    background-image: url("assets/seaspace.jpg");
+    position: relative;
+}
+
+#cupid {
+    background-image: url("assets/field.jpg");
+    position: relative;
+}
+
+#hunt {
+    background-image: url("assets/hunt.jpg");
+    position: relative;
+}
+
+#rumor {
+    background-image: url("assets/roof.jpg");
+    position: relative;
+}
+
+
+/*box*/
+.box {
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: hsla(46, 44%, 87%, 0.95);
+    height: 250px;
+    box-shadow: 10px 10px rgba(200, 200, 169, 0.7);
+}
+
+/*speach bubble*/
+.speech {
+    position: relative;
+    background: #ece5ce;
+    color: #774f38;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.speech:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: rgba(236, 229, 206, 0.9) transparent;
+    border-width: 20px 20px 0;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -20px;
+}
+
