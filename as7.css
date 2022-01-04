@@ -4,10 +4,11 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     font: 400 15px;
+    font-size: 20px;
     line-height: 1;
     color: #774f38;
     display: grid;
-    background-color: #ffffff;
+    background-color: #ece5ce;
 }
 
 h1 {
@@ -36,9 +37,10 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
     line-height: 1.375em;
-    color: #333333;
+    color: #774f38;
     font-weight: 400;
     margin-bottom: 30px;
 }
@@ -70,7 +72,7 @@ h4 {
     animation: bscale 10s infinite linear;
 }
 
-#beginning, #cupid, #hunt, #rumor {
+#beginning, #cupid, #hunt, #rumor, #Iarbas, #delusion, #suicide {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,6 +99,33 @@ h4 {
     position: relative;
 }
 
+#Iarbas {
+    background-image: url("assets/palace.jpg");
+    position: relative;
+}
+
+#delusion {
+    background-image: url("assets/outside.jpg");
+    position: relative;
+}
+
+#suicide {
+    background-image: url("assets/castle.jpg");
+    position: relative;
+}
+
+#ref {
+    background-color: #c8c8a9;
+    height: 20vh;
+    z-index: 1;
+}
+
+#footer {
+    background-color: #774f38;
+    height: 10vh;
+    color: #ece5ce;
+    z-index: 1;
+}
 
 /*box*/
 .box {
@@ -104,8 +133,9 @@ h4 {
     padding: 5%;
     border-radius: 10px;
     background-color: hsla(46, 44%, 87%, 0.95);
-    height: 250px;
+    height: auto;
     box-shadow: 10px 10px rgba(200, 200, 169, 0.7);
+    font-size: 20px;
 }
 
 /*speach bubble*/
@@ -118,7 +148,7 @@ h4 {
     line-height: 24px;
     text-align: center;
     width: 250px;
-    height: 120px;
+    height: auto;
     border-radius: 10px;
     padding: 20px;
 }
@@ -129,7 +159,7 @@ h4 {
     width: 0;
     z-index: 1;
     border-style: solid;
-    border-color: rgba(236, 229, 206, 0.9) transparent;
+    border-color: #ece5ce transparent;
     border-width: 20px 20px 0;
     bottom: -20px;
     left: 50%;

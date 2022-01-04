@@ -54,31 +54,32 @@
     <div id="about">
         <div class="container-fluid bg1">
             <div class="row">
-                <div class="col-8 p-5 mx-auto" style="background-size: 100% 100%;">
+                <div class="col-6 p-5 mx-auto" style="background-size: 100% 100%;">
                     <h2 class="text-center">Introduction</h2>
                     <div class="row">
-                        <divcccc>
+                        <div class="col-3">
                             <img src="assets/Dido_intro-re.png" alt="Dido_intro" height=300px
                                 class="animate__animated animate__backInUp">
-                    </div>
-                    <div class="box col-6">
-                        <p style="text-align: center;">
-                            <b>Dido,</b>
-                            the Tyrian princess, she was the founder of Carthage. After her husband was slain
-                            by her brother, Pygmalion, she fled to the coast of Africa and founded Carthage.
-                        </p>
-                    </div>
-                    <div class="row">
+                        </div>
                         <div class="box col-6">
                             <p style="text-align: center;">
-                                <b>Aeneas,</b>
-                                hero of Troy and Rome, son of the goddess Venus and Anchises. He has the qualities
-                                of persistence, self-denial, and obedience to the gods. He has a son, Ascanius.
+                                <b>Dido,</b>
+                                the Tyrian princess, she was the founder of Carthage. After her husband was slain
+                                by her brother, Pygmalion, she fled to the coast of Africa and founded Carthage.
                             </p>
                         </div>
-                        <div class="col-3">
-                            <img src="assets/Aeneas_intro-re.png" alt="Aeneas_intro" height=300px
-                                class="animate__animated animate__backInUp">
+                        <div class="row">
+                            <div class="box col-6">
+                                <p style="text-align: center;">
+                                    <b>Aeneas,</b>
+                                    hero of Troy and Rome, son of the goddess Venus and Anchises. He has the qualities
+                                    of persistence, self-denial, and obedience to the gods. He has a son, Ascanius.
+                                </p>
+                            </div>
+                            <div class="col-3">
+                                <img src="assets/Aeneas_intro-re.png" alt="Aeneas_intro" height=300px
+                                    class="animate__animated animate__backInUp">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -105,7 +106,7 @@
         <img class="scrollable dropshadow1" data-left=0 data-left2=30 data-top=25 data-top2=75
             src="assets/Ascanius-re.png" alt="Ascanius" style="position:absolute;width:30%;top:40%;left:0%;">
         <div class="row justify-content-around">
-            <p class="col-4 speech" style="top: 50px;">
+            <p class="col-4 speech" style="top: 250px;">
                 After my husband Sychaeus’ death, I swares not to remarry. However, Venus sends Cupid in disguise as
                 Ascanius to force me to fall in love with Aeneas.</p>
         </div>
@@ -126,49 +127,71 @@
     <div id="rumor" style="height:200vh;position:relative;">
         <img class="scrollable dropshadow1" data-top=0 data-top2=65 data-left=0 data-left2=45 data-width=20
             data-width2=30 src="assets/rumor-re.png" alt="rumor"
-            style="position:absolute;width:20%;top:0%;left:0%;filter:grayscale(.3) blur(0px);">
+            style="position:absolute;width:20%;top:0%;left:0%;filter:grayscale(.3) blur(0px); z-index: 10">
         <p class="box col-4" style="position:absolute; right:50px; top:80px">
             Rumor quickly spreads the rumors.</br></br>
             She said, “Here this Aeneas, borm of Trojan blood, has arrived
             in Carthage, and lovely Dido deigns to join the man in wedlock.”</p>
     </div>
 
-<!-- Iarbas-->
-    <div class="innershadow1" style="background-color:gold;min-height:25vh;position:relative;">
-        <img src="novel/3/bg.jpg" style="width:100vw">
-        <img src="novel/3/girl.png" class="scrollable dropshadow1" data-left1=45 data-left2=50 data-width1=30 data-width2=35 data-bottom1=0 data-bottom2=-10 style="position:absolute;
-                    width:  30%; 
-                    bottom: 0%; 
-                    left:   45%; 
-                    filter: blur(0px);
-                    z-index: 10">
-        <img id="testing" src="novel/3/verre.png" class="scrollable dropshadow1" data-top1=-10 data-top2=10 data-left1=25 data-left2=28 style="position:absolute;
-                    width:  100%; 
-                    left:   25%; 
-                    top:    -10%; 
-                    filter: grayscale(.2) blur(0px) opacity(0.8);
-                    z-index: 10">
+    <!-- Iarbas-->
+    <div id="Iarbas" style="height:200vh;position:relative;">
+        <img src="assets/Iarbas-re.png" class="scrollable dropshadow1" data-left1=45 data-left2=50 data-width1=30
+            data-width2=50 data-bottom1=0 data-bottom2=-10
+            style="position:absolute; width: 30%; bottom: 0%; left: 45%; filter: blur(0px)">
+        <img id="testing" src="assets/verre.png" class="scrollable dropshadow1" data-top1=-10 data-top2=10 data-left1=25
+            data-left2=28
+            style="position:absolute;width: 100%; left: 25%; top: -10%; filter: grayscale(.2) blur(0px) opacity(0.8);z-index: 10">
+        <p class="box col-4" style="position:absolute; left:50px; bottom:80px">
+            After hearing the rumor, king Iarbas, one of the suitors of me, is so furious that he wants to start a war.
+        </p>
     </div>
 
+    <!-- sail-beginning -->
+    <div id="beginning" style="height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=0 data-left2=30 data-top=25 data-top2=75 src="assets/boat-re.png"
+            style="position:absolute;width:30%;top:25%;left:0%;">
+        <img src="assets/Dido_beginning-re.png" alt="Dido_beginning" height=400px
+            style="position: absolute; bottom: 0px; right: 10px;">
+        <p class="speech" style="position: absolute; bottom: 500px; right: 50px;">
+            And, I finds out that Aeneas and the Trojans are going to leave...</p>
+    </div>
+
+    <!-- delusion -->
+    <div id="delusion" style="height:200vh;position:relative;">
+        <img src="assets/Dido_sware-re.png" class="scrollable dropshadow1" data-left1=40 data-left2=45 data-width1=30
+            data-width2=32 style="position:absolute; width: 30%; bottom: 0%; left: 40%;">
+        <p class="speech" style="position: absolute; bottom: 600px; right: 250px;">
+            I beg Aeneas to stay.</p>
+        <img src="assets/Aeneas_worry-re.png" data-left1=20 data-left2=15 class="scrollable dropshadow1"
+            style="position:absolute; width: 30%; bottom: 0%; left: 20%;">
+        <p class="speech" style="position: absolute; bottom: 500px; left: 100px;">
+            But he replies, “Nor did I once extend a bridegroom’s torch or enter into a marriage pact with you.”</p>
+    </div>
+
+    <!-- suicide -->
+    <div id="suicide" style="height:200vh;position:relative;">
+        <img class="scrollable dropshadow1" data-left=100 data-left2=60 data-top=25 data-top2=75
+            src="assets/Dido_sad-re.png" style="position:absolute;width:20%;top:25%;left:100%;">
+        <img class="scrollable dropshadow1" data-left=0 data-left2=30 data-top=25 data-top2=75 src="assets/sword-re.png"
+            style="position:absolute;width:30%;top:25%;left:0%;">
+        <p class="speech" style="position: absolute; bottom: 600px; right: 250px;">
+            I’m so upset and realizes that I’m unable to change the course of events.</br>
+            I stabbed herself, ending my unrequited love.
+        </p>
+    </div>
 
     <!-- ref -->
-    <div id="ref" class="container-fluid">
-        <div class="row">
-            <div class="col-8 p-5 mx-auto">
-                <h2 class="text-center">Photo Credit</h2>
-                <p>
-                    Unsplash.
-                    <a class="text-reset fw-bold" href="https://">
-                        Travels of Odysseus</a>
-                    .
-                </p>
-            </div>
-        </div>
+    <div id="ref" class="text-center p-3">
+        <h4>Reference</h2>
+        <p>Virgil  Bernard Knox (Introducer)  Robert Fagles (Translator). (2012) 
+            <i>The Aeneid.</i> UK, London: Penguin Classics.
+        </p>
     </div>
 
     <!-- footer -->
     <div id="footer" class="text-center p-3">
-        <p style="color: #FFFCEC">Web 110-1, AS#7｜written by Chia-Chen Yang</p>
+        <p>Web 110-1, AS#7｜written by Chia-Chen Yang</p>
     </div>
 
 
